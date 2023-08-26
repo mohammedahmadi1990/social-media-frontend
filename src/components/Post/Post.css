@@ -1,0 +1,91 @@
+/* Post.css */
+.post {
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  width: 600px;
+}
+
+.post-header {
+  margin-bottom: 15px;
+}
+
+.user-info {
+  font-weight: 600;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+}
+
+.user-info i.fa-user-circle {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.post-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.post-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.left-icons i,
+.right-icon i {
+  font-size: 1.5em;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.likes-count {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.post-description p {
+  margin-bottom: 5px;
+}
+
+.post-comments {
+  margin-top: 15px;
+}
+
+.post-form-comments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 10px;
+}
+
+.post-form-comments textarea {
+  width: 85%;
+  resize: none; /* To prevent resizing */
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #e2e2e2;
+  font-size: 0.9em;
+}
+
+.post-form-comments button {
+  background-color: #006102a9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.post-form-comments button:hover {
+  background-color: #00b521b1;
+}
+

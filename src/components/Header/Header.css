@@ -1,0 +1,49 @@
+.navigator {
+  background-color: #464646;
+  border-radius: 0px 0px 10px 10px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -20px;
+  padding: 10px;
+}
+
+.comp-logo{
+  display: flex;
+  flex-direction: row;
+}
+
+.company-title{
+  color: cornsilk;  
+  padding-top: 10px;
+}
+
+header img {
+  width: 40px;
+  margin: 0 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  color: #d0d0d0;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item:hover {
+  text-decoration: none;
+  color: #ffffff;
+  color: #e2ba09;
+}

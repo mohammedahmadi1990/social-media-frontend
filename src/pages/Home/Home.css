@@ -1,0 +1,16 @@
+/* Home.css */
+main {
+    background-color: #f0f2f5;
+    padding: 20px 0;
+}
+
+
+#posts-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+
